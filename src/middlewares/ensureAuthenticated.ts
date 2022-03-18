@@ -1,4 +1,4 @@
-import { AppError } from "../errors/AppError";
+import { AppError } from "@errors/AppError";
 import { NextFunction, Request, Response } from "express";
 import { verify } from 'jsonwebtoken';
 import { UsersRepository } from "modules/accounts/repositories/implementations/UsersRepository";
