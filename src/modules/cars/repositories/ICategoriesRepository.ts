@@ -1,8 +1,8 @@
 import { Category } from 'modules/cars/entities/Category';
 
 interface ICreateCategoryDTO {
-  name: string;
-  description: string;
+  name?: string;
+  description?: string;
 }
 
 interface ICategoriesRepository {
