@@ -2,7 +2,7 @@ import { IUsersRepository } from "modules/accounts/repositories/IUsersRepository
 import { inject, injectable } from "tsyringe"
 import { sign } from 'jsonwebtoken';
 import { compare } from 'bcryptjs';
-import { AppError } from "errors/AppError";
+import { AppError } from "../../../../errors/AppError";
 
 interface IRequest {
   email: string,
